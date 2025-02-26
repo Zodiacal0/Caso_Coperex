@@ -5,6 +5,7 @@ import express from "express";
 import { connectionDB } from "./mongo.js";
 import authRoutes from "../src/Auth/auth.routes.js"
 import userRoutes from "../src/user/user.routes.js"
+import companyRoutes from "../src/company/company.routes.js"
 import { userSeeder } from "../src/seeders/user.seeder.js";
 
 
@@ -20,6 +21,7 @@ const middlewares = (app) => {
 const routes = (app) =>{
     app.use("/casocoperex/v1/auth", authRoutes);
     app.use("/casocoperex/v1/user", userRoutes);
+    app.use("/casocoperex/v1/company", companyRoutes);
 }
 
 const connectionMongo = async() =>{
