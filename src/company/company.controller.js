@@ -186,6 +186,6 @@ export const generateReport = async () => {
         return exportPath;
     } catch (error) {
         console.error("Error generating the report:", error.message);
-        throw new Error("Failed to generate Excel file");
+        throw new Error("Failed to generate Excel File");
     }
 };
