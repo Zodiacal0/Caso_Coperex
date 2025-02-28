@@ -7,7 +7,7 @@ import authRoutes from "../src/Auth/auth.routes.js"
 import userRoutes from "../src/user/user.routes.js"
 import companyRoutes from "../src/company/company.routes.js"
 import { userSeeder } from "../src/seeders/user.seeder.js";
-
+import { swaggerDocs, swaggerUi } from "./swagger.js";
 
 const middlewares = (app) => {
     app.use(express.urlencoded({extended:false}));
@@ -22,6 +22,7 @@ const routes = (app) =>{
     app.use("/casocoperex/v1/auth", authRoutes);
     app.use("/casocoperex/v1/user", userRoutes);
     app.use("/casocoperex/v1/company", companyRoutes);
+    app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 }
 
 const connectionMongo = async() =>{
