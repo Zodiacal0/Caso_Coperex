@@ -19,8 +19,10 @@ export const registerCompanyValidator = [
 
 export const listCompanyByFiltersValidator = [
     validateJWT,
-    body("filterType").notEmpty().withMessage("FilterType is required").isNumeric().withMessage("Filter only 1 - 4 "),
+    body("filterTypes").notEmpty().withMessage("FilterType is required"),
     body("category").optional().isIn(["Technology", "Healthcare", "Education", "Industry & Manufacturing", "Services"]).withMessage("Only must be Technology, Healthcare, Education, Industry & Manufacturing, Services"),
+    body("rangoMin").optional().isNumeric().withMessage("The range minimun must be Number"),
+    body("rangoMax").optional().isNumeric().withMessage("The range maximun must be Number"),
     validationsFields,
     catchErrors
 ];
