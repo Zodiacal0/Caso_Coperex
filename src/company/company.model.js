@@ -8,21 +8,21 @@ const companySchema = Schema({
     },
     email: {
         type: String,
-        required: [true, "Email is requiered"],
+        required: [true, "Email is requiered"]
     },
     phone: {
         type: String,
         minLength: 8,
         maxLength: 8,
-        required: true,
+        required: true
     },
     address:{
         type: String,
-        required: [true, "Addres is required"],
+        required: [true, "Addres is required"]
     },
     impactLevel: {
         type: String,
-        required: [true, "Impact Level is required"],
+        required: [true, "Impact Level is required"]
     },
     yearsOfExperience:{
         type: Number,
@@ -38,7 +38,7 @@ const companySchema = Schema({
     },
     status: {
         type: Boolean,
-        default: true,
+        default: true
     },
 },
 {

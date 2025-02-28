@@ -18,13 +18,13 @@ const userSchema = Schema({
     },
     password: {
         type: String,
-        required: [true, "Password is requiered"],
+        required: [true, "Password is requiered"]
     },
     phone: {
         type: String,
         minLength: 8,
         maxLength: 8,
-        required: true,
+        required: true
     },
     role: {
         type: String,
@@ -34,7 +34,7 @@ const userSchema = Schema({
     },
     status: {
         type: Boolean,
-        default: true,
+        default: true
     },
 },
 {
