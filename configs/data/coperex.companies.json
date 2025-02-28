@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "67bf9b88f63fa9f358a46b40"
+  },
+  "name": "Tech Solutions",
+  "email": "contact@techsolutions.com",
+  "phone": "55443322",
+  "address": "Avenida Reforma 123, Ciudad",
+  "impactLevel": "High",
+  "yearsOfExperience": 10,
+  "category": "Technology",
+  "creationYear": 2015,
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67bf9b9bf63fa9f358a46b42"
+  },
+  "name": "EduFuture",
+  "email": "info@greenhealth.com",
+  "phone": "98765432",
+  "address": "Boulevard Central 789, Zona 15",
+  "impactLevel": "High",
+  "yearsOfExperience": 20,
+  "category": "Education",
+  "creationYear": 2005,
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c0fa5d2430722ff6133939"
+  },
+  "name": "Tech Innovators",
+  "email": "contact@techinnovators.com",
+  "phone": "12345678",
+  "address": "123 Tech Street, Silicon Valley",
+  "impactLevel": "High",
+  "yearsOfExperience": 12,
+  "category": "Technology",
+  "creationYear": 2013,
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c0fa662430722ff613393c"
+  },
+  "name": "MediCare Solutions",
+  "email": "info@medicare.com",
+  "phone": "87654321",
+  "address": "456 Health Ave, New York",
+  "impactLevel": "Medium",
+  "yearsOfExperience": 10,
+  "category": "Healthcare",
+  "creationYear": 2015,
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c0fa6e2430722ff613393f"
+  },
+  "name": "EduSmart Academy",
+  "email": "hello@edusmart.com",
+  "phone": "23456789",
+  "address": "789 Learning Blvd, Boston",
+  "impactLevel": "High",
+  "yearsOfExperience": 15,
+  "category": "Education",
+  "creationYear": 2010,
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c0fa762430722ff6133942"
+  },
+  "name": "Industry Leaders Inc.",
+  "email": "contact@industryleaders.com",
+  "phone": "34567890",
+  "address": "567 Factory Rd, Chicago",
+  "impactLevel": "Low",
+  "yearsOfExperience": 20,
+  "category": "Industry & Manufacturing",
+  "creationYear": 2005,
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c0fa7f2430722ff6133945"
+  },
+  "name": "Home Services Experts",
+  "email": "support@homeservices.com",
+  "phone": "45678901",
+  "address": "321 Service Lane, Miami",
+  "impactLevel": "Medium",
+  "yearsOfExperience": 7,
+  "category": "Services",
+  "creationYear": 2018,
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c0fa8b2430722ff6133948"
+  },
+  "name": "AI Future Labs",
+  "email": "team@aifuturelabs.com",
+  "phone": "56789012",
+  "address": "999 AI Blvd, San Francisco",
+  "impactLevel": "High",
+  "yearsOfExperience": 9,
+  "category": "Technology",
+  "creationYear": 2016,
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c0fab02430722ff613394b"
+  },
+  "name": "Global Manufacturing Ltd.",
+  "email": "contact@globalmfg.com",
+  "phone": "78901234",
+  "address": "555 Production Rd, Detroit",
+  "impactLevel": "Medium",
+  "yearsOfExperience": 17,
+  "category": "Industry & Manufacturing",
+  "creationYear": 2008,
+  "status": false
+},
+{
+  "_id": {
+    "$oid": "67c0fab92430722ff613394e"
+  },
+  "name": "Smart Tutors",
+  "email": "support@smarttutors.com",
+  "phone": "89012345",
+  "address": "123 Tutor Way, Austin",
+  "impactLevel": "Medium",
+  "yearsOfExperience": 8,
+  "category": "Education",
+  "creationYear": 2017,
+  "status": true
+}]

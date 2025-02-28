@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "67be3edc718dd3a3a046a24f"
+  },
+  "name": "Admin",
+  "surname": "Admin",
+  "email": "adminexample@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$/5ARIcgZEaUsWINurZHZRA$X4Y5NqWJoRlK1GaHsL2gEAkNfyd2mkbE0Fo8YV/S9w8",
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67be4353b903a944b8f28e45"
+  },
+  "name": "Rodrigo",
+  "surname": "Herrera",
+  "email": "rodrigoherrera5512@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$S1gYAwmBzwGaTomsJd6n7w$+P3UPaJ0dnFGLKJFYlN/w76DQdvsIasZSRvNFgoidTU",
+  "phone": "87654321",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67bf9e2bcb80d104d276e9b7"
+  },
+  "name": "Javier",
+  "surname": "Herrera",
+  "email": "javierherrera5513@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$RTgU6rwTS7Z+m5k5QOms6Q$IwOUtfdlj+x3bBgcrP9eCrUB0NwNBS9N4hAE3NpsWLw",
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "status": true
+}]
